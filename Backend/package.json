@@ -13,13 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
+  "dev": "nodemon server.js",
   "bugs": {
     "url": "https://github.com/MuhammadWaqar7615/jwt-encryption/issues"
   },
   "homepage": "https://github.com/MuhammadWaqar7615/jwt-encryption#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "mongodb": "^7.5.0"
+    "mongodb": "^7.5.0",
+    "mongose": "^0.0.2-security",
+    "morgan": "^1.11.0",
+    "nodemon": "^3.1.14"
   }
 }
